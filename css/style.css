@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-navbar {
+    background-color: #67717a !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.custom-link {
+    color: #dbd8d8;
+    margin-left: 6rem ;
+}
+
+.custom-link:hover {
+    color: white;
+}
+
+.active {
+    color: white !important;
+}
+
