@@ -1,19 +1,15 @@
+.contenedor-titulo {
+  text-align: center;
+  margin-top: 70px;
+}
+
 .titulo {
-  margin-top: 0;
+  margin-bottom: -30px;
 }
 
-.carousel {
-  margin-top: 0;
-  height: 400px;
-}
-.carousel .carousel-item {
-  height: 100%;
-  display: flex;
-  align-items: center;
+.carousel-item h5 {
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
 }
-.carousel .carousel-item h5 {
-  color: #000000;
-}
-
-
