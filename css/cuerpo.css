@@ -2,19 +2,14 @@
     margin-top: 100px;
 }
 
-.row {
-    flex-direction: column;
-    max-width: 22rem;
+.cont-opciones {
+    margin-left: 4rem;
 }
 
-.col {
-    padding: 15px;
-    border: 1px solid rgb(151, 151, 151);
-    border-radius: 5px;
-    text-align: left;
+.botones .btn {
+    border: 1px solid rgb(173, 173, 173);
     text-decoration: underline;
-}
-
-.col a {
-    color: inherit;
+    text-align: left;
+    padding: 1.4rem;
+    max-width: 22rem;
 }

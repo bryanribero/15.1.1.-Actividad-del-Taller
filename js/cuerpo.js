@@ -4,22 +4,12 @@ document.addEventListener('DOMContentLoaded', function(){
     const cuerpo = document.querySelector('.cont-datos');
 
     const opcionesTexto = `
-    <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <a href="#">Opción 1</a>
+    <div class="col-3 d-flex flex-column botones ">
+      <button class="btn ">Opción 1</button>
+      <button class="btn ">Opción 2</button>
+      <button class="btn ">Opción 3</button>
+      <button class="btn ">Opción 4</button>
     </div>
-    <div class="col">
-      <a href="#">Opción 2</a>
-    </div>
-    <div class="col">
-      <a href="#">Opción 3</a>
-    </div>
-    <div class="col">
-      <a href="#">Opción 4</a>
-    </div>
-  </div>
-</div>
     `
 
     opciones.innerHTML = opcionesTexto;
