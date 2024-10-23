@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const contenedorNavBar = document.querySelector(".contenedor-navbar");
 
     const navBar = `
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">LOREM IPSUM</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(){
           <a class="nav-link mx-2" href="#">Amet</a>
         </li>
         <li class="nav-item d-lg-none">
-          <a class="nav-link mx-2" href="#">Opciones</a>
+          <a class="nav-link mx-2" href="#" id="opcionesToggle">Opciones</a>
         </li>
       </ul>
 
