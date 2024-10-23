@@ -2,14 +2,13 @@
     margin-top: 100px;
 }
 
-.cont-opciones {
-    margin-left: 4rem;
-}
-
 .botones .btn {
     border: 1px solid rgb(173, 173, 173);
     text-decoration: underline;
     text-align: left;
     padding: 1.4rem;
-    max-width: 22rem;
+}
+
+.texto {
+    background-color: #F8F9FA;
 }
